@@ -1,6 +1,6 @@
 # Git Basics
 
-## 1. What is version control, and why is it important?
+# 1. What is version control, and why is it important?
 Version control is a system that tracks changes to files over time, crucial for collaboration, tracking changes, and project stability.
 
 ## 2. What is Git, and why is it popular?
