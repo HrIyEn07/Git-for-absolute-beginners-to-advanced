@@ -1,61 +1,59 @@
-# Git Basics
-
-1. **What is version control, and why is it important?**
+**1. What is version control, and why is it important?**
    Version control tracks changes to files over time, crucial for collaboration, tracking changes, and project stability.
 
-2. **What is Git, and why is it popular?**
+**2. What is Git, and why is it popular?**
    Git is a distributed version control system known for its speed, efficiency, and distributed development capabilities.
 
-3. **Explain the purpose of a commit in Git.**
+**3. Explain the purpose of a commit in Git.**
    A commit captures a snapshot of changes made to files in a repository, enabling version history tracking.
 
-4. **How do you initialize a new Git repository?**
+**4. How do you initialize a new Git repository?**
    Use `git init` in the desired directory.
 
-5. **What is the staging area/index in Git, and why is it useful?**
+**5. What is the staging area/index in Git, and why is it useful?**
    The staging area allows organizing and reviewing changes before committing, facilitating selective commits.
 
-6. **How do you add files to the staging area in Git?**
+**6. How do you add files to the staging area in Git?**
    Use `git add <file>` to stage specific files or `git add .` to stage all changes.
 
-7. **Explain the difference between `git add`, `git commit`, and `git push`.**
+**7. Explain the difference between `git add`, `git commit`, and `git push`.**
    `git add` stages changes, `git commit` records them, and `git push` uploads local commits to a remote repository.
 
-8. **What is the purpose of `.gitignore` in a Git repository?**
+**8. What is the purpose of `.gitignore` in a Git repository?**
    `.gitignore` specifies files to be ignored, preventing them from being staged or committed.
 
-9. **How do you view the commit history in Git?**
+**9. How do you view the commit history in Git?**
    Use `git log` to view commit history.
 
-10. **Explain the difference between Git and GitHub.**
+**10. Explain the difference between Git and GitHub.**
     Git is a version control system, while GitHub is a platform for hosting Git repositories and collaboration.
 
-11. **What is a repository in Git?**
+**11. What is a repository in Git?**
     A repository is a collection of files and their version history, along with configuration data.
 
-12. **How do you check the status of a Git repository?**
+**12. How do you check the status of a Git repository?**
     Use `git status` to display the current state of the repository, including modified files, staged changes, and untracked files.
 
-13. **What is the purpose of branching in Git?**
+**13. What is the purpose of branching in Git?**
     Branching allows for parallel development, enabling developers to work on features or fixes without affecting the main codebase.
 
-14. **How do you create a new branch in Git?**
+**14. How do you create a new branch in Git?**
     Use `git checkout -b <branch_name>` to create and switch to a new branch simultaneously.
 
-15. **What is a commit message, and why is it important?**
+**15. What is a commit message, and why is it important?**
     A commit message is a brief description of the changes made in a commit, aiding in understanding the purpose of the commit and its impact on the codebase.
 
-16. **How do you discard changes in a file in Git?**
+**16. How do you discard changes in a file in Git?**
     Use `git checkout -- <file>` to discard changes in a file and revert it to its state in the last commit.
 
-17. **What is Git's role in continuous integration/continuous deployment (CI/CD) pipelines?**
+**17. What is Git's role in continuous integration/continuous deployment (CI/CD) pipelines?**
     Git serves as a central source of truth for code changes, allowing automated processes in CI/CD pipelines to trigger builds, tests, and deployments based on changes pushed to repositories.
 
-18. **How do you create a Git alias for a command?**
+**18. How do you create a Git alias for a command?**
     Use `git config --global alias.<alias_name> '<command>'` to create a Git alias for a command.
 
-19. **Explain the concept of forking in Git.**
+**19. Explain the concept of forking in Git.**
     Forking involves creating a copy of a repository in your GitHub account, allowing you to freely experiment with changes without affecting the original repository.
 
-20. **What is the difference between a bare and non-bare repository in Git?**
+**20. What is the difference between a bare and non-bare repository in Git?**
     A bare repository does not have a working directory and is typically used as a central repository for collaboration, while a non-bare repository contains a working directory and represents a developer's local copy of the repository.
